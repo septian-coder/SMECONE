@@ -23,7 +23,7 @@
             </li>
             <li class="nav-item mt-3 d-flex align-items-center">
                 
-                <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6 mb-0">Users Setting</h6>
+                <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6 mb-0">Data Master</h6>
             </li>
             <li class="nav-item">
                 <a class="nav-link {{ Route::currentRouteName() == 'profile' ? 'active' : '' }}" href="{{ route('profile') }}">
@@ -116,5 +116,4 @@
     <div class="sidenav mx-3">
         <a href="/docs/bootstrap/overview/argon-dashboard/index.html" target="_blank"
             class="btn btn-dark btn-sm w-100 mb-3">Documentation</a>
-
 </aside>
